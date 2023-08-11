@@ -2,4 +2,4 @@
 
 pip install -r requirements.txt
 
-python app_flask.py
+python flask_API_app.py
