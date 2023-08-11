@@ -1,6 +1,6 @@
 # version classifier sur corpus tokenizé et lemmatisé
 
-import tensorflow as tf
+# import tensorflow as tf
 import tensorflow_hub as hub
 import pickle
 import numpy as np
