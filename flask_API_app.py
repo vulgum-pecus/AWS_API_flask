@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # version retrogradée pour compatibilité EC2
 
 import tensorflow as tf
