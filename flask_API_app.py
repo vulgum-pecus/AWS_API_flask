@@ -11,7 +11,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def bienvenue():
-    message = " *** Bienvenue sur l'API de prédiction de tags pour une question du site StackOverFlow ! *** \n \n Veuillez entrer, SVP, le endpoint predict_tags/ à la suite de l'URL de l'API et poser votre question. Le modèle vous suggérera des tags représentatifs du thème de votre question"
+    message = ''' *** Bienvenue sur l'API de prédiction de tags pour une question du site StackOverFlow ! *** \n \n 
+
+    Veuillez entrer, SVP, le endpoint predict_tags/ à la suite de l'URL de l'API et poser votre question. \n \n 
+
+    Le modèle vous suggérera des tags représentatifs du thème de votre question'''
+    
     return "<pre>{}</pre>".format(message)
 
 @app.route('/predict_tags/<string:question>')
